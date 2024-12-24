@@ -2,30 +2,8 @@ import { useEffect, useState } from "react";
 import Articles from "./../data/articles.json";
 import { Link } from 'react-router-dom';
 
-interface ArticleData {
-  title: string;
-  taxonomy: {
-    domain: string;
-    subdomain: string;
-    themes: string[];
-    audience: string[];
-    content_type: string;
-    professional_use: string;
-    source: string;
-  };
-  content: {
-    presentation: string;
-    why_interesting: string;
-    professional_use: string;
-  };
-}
-
-interface ArticleProps {
-  id: number; // Identifiant de l'article
-}
-
-const ArticleSection: React.FC<ArticleProps> = ({ id }) => {
-  const [article, setArticle] = useState<ArticleData | null>(null);
+function ArticleSection({ id }) {
+  const [article, setArticle] = useState(null);
 
   useEffect(() => {
     const fetchArticle = async () => {
@@ -59,6 +37,6 @@ const ArticleSection: React.FC<ArticleProps> = ({ id }) => {
       <Link data-scroll data-scroll-speed="2" data-scroll-delay="0.1" to={`/article/${id}`} className="button">Plus d'informations</Link>
     </div>
   );
-};
+}
 
 export default ArticleSection;

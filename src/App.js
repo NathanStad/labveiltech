@@ -8,15 +8,16 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Article from "./pages/Article";
 import NoPage from "./pages/NoPage";
+import * as React from "react";
 
 function ScrollManager() {
   const location = useLocation();
 
   useEffect(() => {
-    let scroll: LocomotiveScroll | undefined;
+    let scroll;
 
     const initializeScroll = () => {
-      const scrollContainer = document.querySelector("#root") as HTMLElement;
+      const scrollContainer = document.querySelector("#root");
       if (scrollContainer) {
         scroll = new LocomotiveScroll({
           el: scrollContainer,

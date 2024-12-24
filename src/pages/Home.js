@@ -1,6 +1,7 @@
 import logo from "./../assets/ns-logo.svg";
 import { Link } from 'react-router-dom';
-import Article from "./../components/ArticleSection";
+import Article from "../components/ArticleSection";
+import * as React from "react";
 
 
 function Home() {

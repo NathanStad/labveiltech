@@ -1,30 +1,11 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Articles from "./../data/articles.json";
-import "./contact.css"; // Déplacez les styles dans un fichier CSS pour un meilleur gestion
-
-interface ArticleData {
-  title: string;
-  taxonomy: {
-    domain: string;
-    subdomain: string;
-    themes: string[];
-    audience: string[];
-    content_type: string;
-    professional_use: string;
-    source: string;
-  };
-  content: {
-    presentation: string;
-    why_interesting: string;
-    professional_use: string;
-    system?: string;
-  };
-}
+import Articles from "../data/articles.json";
+import "./contact.css";
 
 function Article() {
-  const { id } = useParams<{ id: string }>(); // Récupère l'ID depuis l'URL
-  const [article, setArticle] = useState<ArticleData | null>(null);
+  const { id } = useParams();
+  const [article, setArticle] = useState(null);
 
   useEffect(() => {
     const fetchArticle = async () => {
@@ -61,7 +42,7 @@ function Article() {
           </p>
           <p>
             <strong data-scroll data-scroll-speed="2" data-scroll-delay="0.1">
-              Themes:
+              Thèmes:
             </strong>{" "}
             {article.taxonomy.themes.join(", ")}
           </p>

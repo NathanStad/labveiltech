@@ -1,3 +1,4 @@
+import * as React from "react";
 import "./contact.css"; // Déplacez les styles dans un fichier CSS pour un meilleur gestion
 
 function Contact() {
