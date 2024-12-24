@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2424 1000">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Dégradé_sans_nom_131);
+      }
+
+      .st1 {
+        fill: none;
+      }
+
+      .st2 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st3 {
+        fill: url(#Dégradé_sans_nom_1311);
+      }
+
+      .st4, .st5, .st6 {
+        fill: #343434;
+      }
+
+      .st7 {
+        fill: #010101;
+        opacity: .51;
+      }
+
+      .st5 {
+        font-size: 210.34px;
+        letter-spacing: .11em;
+      }
+
+      .st5, .st6 {
+        font-family: FranklinGothic-Medium, 'Franklin Gothic Medium';
+        font-weight: 500;
+      }
+
+      .st8 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st6 {
+        font-size: 376px;
+        letter-spacing: .03em;
+      }
+
+      .st9 {
+        fill: url(#Dégradé_sans_nom_204);
+      }
+
+      .st10 {
+        fill: #e34946;
+        font-family: FranklinGothic-BookItalic, 'Franklin Gothic Book';
+        font-size: 115.83px;
+        font-style: italic;
+      }
+    </style>
+    <clipPath id="clippath-2">
+      <path class="st1" d="M109.37,360.31L399.87,46.09v314.22l-167.14,167.14c-43.39,43.39-117.65,14-119.58-47.34l-3.78-119.8Z"/>
+    </clipPath>
+    <linearGradient id="Dégradé_sans_nom_131" data-name="Dégradé sans nom 131" x1="276.43" y1="839.42" x2="587.33" y2="839.42" gradientTransform="translate(699.92 1345.11) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e62c2f"/>
+      <stop offset=".21" stop-color="#e52f31"/>
+      <stop offset=".38" stop-color="#e43939"/>
+      <stop offset=".53" stop-color="#e34946"/>
+      <stop offset=".66" stop-color="#e5524d"/>
+      <stop offset=".87" stop-color="#ea6b62"/>
+      <stop offset="1" stop-color="#ef7e72"/>
+    </linearGradient>
+    <clipPath id="clippath-5">
+      <path class="st1" d="M756.06,639.69l-290.5,314.22v-314.22s167.13-167.14,167.13-167.14c43.39-43.39,117.65-14,119.58,47.34l3.78,119.8Z"/>
+    </clipPath>
+    <linearGradient id="Dégradé_sans_nom_1311" data-name="Dégradé sans nom 131" x1="51.92" y1="-2885.69" x2="362.82" y2="-2885.69" gradientTransform="translate(390 3380)" xlink:href="#Dégradé_sans_nom_131"/>
+    <linearGradient id="Dégradé_sans_nom_204" data-name="Dégradé sans nom 204" x1="1674.81" y1="-873.92" x2="1674.81" y2="-878.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f1f1f"/>
+      <stop offset="1" stop-color="#515151"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <path class="st4" d="M109.37,360.31L399.87,46.09v285.75c0,18.23-7.24,35.71-20.13,48.6l-147,147c-43.39,43.39-117.65,14-119.58-47.34l-3.78-119.8Z"/>
+      <g class="st8">
+        <path class="st7" d="M113.28,345.08l-7.97,201.41c0,52.22,42.34,94.56,94.56,94.56l221.69-5.2L113.28,345.08Z"/>
+      </g>
+      <path class="st0" d="M109.37,360.31v196.21c0,52.22,42.34,94.56,94.56,94.56h213.73L109.37,360.31Z"/>
+      <path class="st4" d="M756.06,639.69l-290.5,314.22v-285.75c0-18.23,7.24-35.71,20.13-48.6l147-147c43.39-43.39,117.65-14,119.58,47.34l3.78,119.8Z"/>
+      <g class="st2">
+        <path class="st7" d="M752.14,654.92l7.97-201.41c0-52.22-42.34-94.56-94.56-94.56l-221.69,5.2,308.29,290.77Z"/>
+      </g>
+      <path class="st3" d="M756.06,639.69v-196.21c0-52.22-42.34-94.56-94.56-94.56h-213.73s308.29,290.77,308.29,290.77Z"/>
+    </g>
+    <text class="st5" transform="translate(951.03 315.01)"><tspan x="0" y="0">NATHAN</tspan></text>
+    <text class="st10" transform="translate(952.54 790.02)"><tspan x="0" y="0">Ingénieur des médias</tspan></text>
+    <text class="st6" transform="translate(949.44 634.02)"><tspan x="0" y="0">STADER</tspan></text>
+  </g>
+  <path class="st9" d="M1674.81-873.92c3.22,0,3.22-5,0-5s-3.22,5,0,5h0Z"/>
+</svg>
