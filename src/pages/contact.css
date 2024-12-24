@@ -1,0 +1,39 @@
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 1.2rem;
+}
+section h1{
+    font-size: 8rem;
+    margin: 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding-top: 0;
+
+}
+.info h2{
+    font-size: 5rem;
+
+}
+.info > p{
+    font-size: 1.6rem;
+    width: 50%;
+}
+.info > p:nth-of-type(even){
+    margin-left: 50%;
+}
+.header p{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 15%;
+}
+#ikigai-container{
+    background-image: url("./../assets/ikigai.jpg");
+    background-position: center;
+    background-size: contain;
+}
